@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AiLaTrieuPhu</string>
+    <string name="info_dialog_title">About</string>
+    <string name="info_title">Ai là triệu phú</string>
+    <string name="version">Phiên bản: 1.0.0</string>
+    <string name="designer">Design: thanggun99</string>
+    <string name="website">Website: Pinkhoe.com</string>
+</resources>

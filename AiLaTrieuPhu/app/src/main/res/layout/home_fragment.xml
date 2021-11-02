@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_background" />
+
+    <ImageView
+        android:id="@+id/imgHomeRotateBg"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_circle_anim" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:src="@drawable/icon_logo_app" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btnPlay"
+                android:layout_width="300dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:src="@drawable/home_button_play" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btnInfor"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/home_button_about" />
+
+                <ImageView
+                    android:id="@+id/btnRank"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginEnd="36dp"
+                    android:src="@drawable/home_button_archivement" />
+
+                <ImageView
+                    android:id="@+id/btnSetting"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/home_button_setting" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
